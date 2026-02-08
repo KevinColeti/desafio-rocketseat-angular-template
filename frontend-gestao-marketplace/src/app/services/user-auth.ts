@@ -7,7 +7,6 @@ export class UserAuthService {
 
   getUserToken(){
     //TODO Recuperar TOKEN do localstorage
-
     return '';
   }
 }
