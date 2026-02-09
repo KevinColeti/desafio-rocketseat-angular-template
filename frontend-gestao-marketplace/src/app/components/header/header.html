@@ -15,6 +15,13 @@
       <img class="mr-2 w-4 h-4" src="plus-sign.svg" />
       <span class="text-white text-sm">Novo produto</span>
     </div>
+    <!-- Botão Logout --> 
+
+    <div class="flex items-center p-2 rounded-lg bg-[#3f0df2] cursor-pointer mr-3 active:translate-y-2 duration-200 
+    ease-in-out transition" (click)="userAuthService.logout()">
+      <img class="mr-2 w-4 h-4 fill-white" src="logout.svg" />
+      <span class="text-white text-sm">Logout</span>
+    </div>
     <!-- Avatar -->
     <img src="user-avatar.svg" />
   </div>
